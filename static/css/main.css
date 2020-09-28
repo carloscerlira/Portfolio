@@ -1,0 +1,72 @@
+h1 {
+  font-family: 'Karla';
+  color: rgb(40, 50, 78);
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'Karla';
+  color: rgb(40, 50, 78);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Karla';
+  color: rgb(40, 50, 78);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Karla';
+  color: rgb(40, 50, 78);
+  font-size: 16px;
+}
+
+li {
+  font-family: 'Karla';
+  color: rgb(40, 50, 78);
+  font-size: 16px;
+}
+
+hr.solid {
+  border-top: 10px solid #bbb;
+}
+
+a {
+  color: inherit;
+}
+
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.pagination>li.active>a {
+  background-color: rgb(40, 50, 78) !important;
+}
+.page-item.active .page-link {
+  border-color:  rgb(40, 50, 78);
+}
+.page-link {
+  color: rgb(40, 50, 78);
+}
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
+  line-height: 50px;
+}
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
+  line-height: 50px;
+}
+
+/* svg {
+  shape-rendering: optimizeSpeed
+} */

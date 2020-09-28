@@ -1,0 +1,35 @@
+{% extends "index.html" %}
+{% from "macros/makeProject.html" import makeProject %}
+{% block content %}
+</br>
+<h1> About me </h1>
+<p> 
+    My name is <strong> Carlos Cerritos Lira </strong>. I'm currently studying a <strong> BS in Data Science</strong> 
+    at <strong> Universidad Nacional Autónoma de México </strong> with expected graduation in <strong> 2022 </strong>. I enjoy solving problems using data, 
+    topics like math, physics, big data and competitive programming.
+</p>
+<h1> Resume </h1>
+<p>
+    Please click below to download my resume in pdf format.</br>
+    <center style="font-size: 20px;">
+        <i class="fas fa-download"></i>
+        Download
+    </center>
+</p>
+<h1> Projects </h1>
+<table class="table table-striped">
+    <tbody>
+    {% for project in projectsData %}
+    <tr>
+        <td>
+            {{ makeProject(project) }}
+        </td>
+    </tr>  
+    {% endfor %}
+    </tbody>
+</table>
+
+<h1> Contact </h1>
+If you wish to 
+
+{% endblock %}

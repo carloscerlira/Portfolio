@@ -1,0 +1,46 @@
+{% macro makeProject(data) %}
+<h2> {{ data['title'] }} </h2>
+<h3> {{ data['software'] }} </h3>
+<h3 style="font-size: 30px;">
+    {% for icon, url in data['icons'].items() %}
+    <a href="{{ url }}">
+        <i class= "{{ icon }}"> </i>
+    </a>
+    {% endfor %}
+</h3>
+<center> 
+    <img src="{{ data['img'] }}" class="mw-300" style="width: 350px;">
+</center>
+</br>
+
+<h3> About this project </h3>
+<p>
+    {{ data['content'] }}
+</p>
+
+<h3> Project Challenges </h3>
+{% if data['projectChallenges'] is string %}
+<p> 
+    {{ data['projectChallenges'] }} 
+</p>
+{% else %}
+<ul>
+    {% for item in data['projectChallenges'] %}
+    <li> {{ item }} </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<h3> My Solution </h3>
+{% if data['mySolution'] is string %}
+<p>
+    {{ data['mySolution'] }}
+</p>
+{% else %}
+<ul>
+    {% for item in data['mySolution'] %}
+    <li> {{ item }} </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endmacro %}

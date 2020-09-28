@@ -1,0 +1,10 @@
+{% extends "index.html" %}
+{% from "macros/macroTemplate.html" import writeText %}
+{% from "macros/makeProject.html" import makeProject %}
+{% block content %}
+
+{% for project in projectsData %}
+{{ makeProject(project) }}
+{% endfor %}
+
+{% endblock %}
