@@ -10,9 +10,9 @@ boatsML = {
 
 boatsML['content'] = """ 
 Planet is a US company that delivers daily satellite images from California.
-Because of the high amout of data that is generated each day, computer vision 
+Due to the high amout of data that is generated each day, computer vision 
 algorithms are used to automate the analysis task. For this project I made a 
-convulutional Neural Network to identify boats using over 40,000 images of 
+convulutional Neural Network to identify boats using over 40,000 images from 
 California Bay Area. The dataset was created using Planet's API by kaggle 
 user Bob Hammell.   
 """
