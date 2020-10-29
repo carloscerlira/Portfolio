@@ -11,7 +11,7 @@ doubleSlit = {
 doubleSlit['content'] = """ 
 The Schrödinger equation describes the way particles such as electrons interact with the 
 world. The double slit experiment, one of the most beautiful and famous experiments in all physics.
-Turns out there is not an analytical solution for this experiment, so I decided to 
+Turns out there is no analytical solution for this experiment, so I decided to 
 solve it numerically.  
 """
 

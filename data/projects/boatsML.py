@@ -19,10 +19,10 @@ user Bob Hammell.
 
 boatsML['projectChallenges'] = [
 """ 
-Selecting a CNN arquitecture.
+Choosing a CNN arquitecture.
 """,
 """
-Selecting metrics for model.
+Choosing metrics for model.
 """
 ]
 boatsML['mySolution'] = [
