@@ -3,20 +3,25 @@ coronaTrack = {
     'software': 'Heroku | Flask | GitHub | HighCharts | Pandas',
     'img': 'https://raw.githubusercontent.com/carloscerlira/CoronaTrack/master/about/img/home.png',
     'icons': {
-        "fas fa-globe": "https://world-covid-tracker.herokuapp.com/",
+        "fas fa-globe-americas": "https://world-covid-tracker.herokuapp.com/",
         'fab fa-github': 'https://github.com/carloscerlira/CoronaTrack'
     }
 }
 
 coronaTrack['content'] = """ 
-Daily stats, graphs and general informaiton about COVID-19 for more than 150 
-countries. Data comes from custom API and is updated daily by server.
+Daily statistics, graphs and general informaiton about COVID-19 for more than 150 
+countries daily updated by server.
 """
 
-coronaTrack['projectChallenges'] = """
+coronaTrack['projectChallenges'] = [
+"""
 Create custom API, data has to be updated daily and comes 
 from different sources.
+""",
 """
+Charts need to be resized for phone users, since the screen is smaller.
+"""
+]
 
 coronaTrack['mySolution'] = [
 """ 
@@ -28,6 +33,6 @@ I had to transform to a similar format.
 I used pandas to fetch and manipulate the data to generate custom metrics. 
 """,
 """ 
-I used a GitHub repository as my API, updated daily by heroku server using pyGithub. 
+Github repository serves as API, updated daily by heroku server using pyGithub. 
 """
 ]

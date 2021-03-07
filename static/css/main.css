@@ -1,36 +1,35 @@
 h1 {
   font-family: 'Karla';
-  color: rgb(40, 50, 78);
+  color:#161c2b;
   font-size: 24px;
   font-weight: bolder;
 }
 
 h2 {
   font-family: 'Karla';
-  color: rgb(40, 50, 78);
+  color: #161c2b;
   font-size: 20px;
   font-weight: bold;
 }
 
 h3 {
   font-family: 'Karla';
-  color: rgb(40, 50, 78);
+  color: #161c2b;
   font-size: 16px;
   font-weight: bold;
 }
 
 p {
   font-family: 'Karla';
-  color: rgb(40, 50, 78);
+  color: #161c2b;
   font-size: 16px;
 }
 
 li {
   font-family: 'Karla';
-  color: rgb(40, 50, 78);
+  color: #161c2b;
   font-size: 16px;
 }
-
 
 hr.solid {
   border-top: 10px solid #bbb;
@@ -47,13 +46,13 @@ a {
 }
 
 .pagination>li.active>a {
-  background-color: rgb(40, 50, 78) !important;
+  background-color: #161c2b !important;
 }
 .page-item.active .page-link {
-  border-color:  rgb(40, 50, 78);
+  border-color:  #161c2b;
 }
 .page-link {
-  color: rgb(40, 50, 78);
+  color: #161c2b;
 }
 .navbar-brand {
   padding-top: 0;
@@ -66,6 +65,10 @@ a {
   padding-bottom: 0;
   height: 50px;
   line-height: 50px;
+}
+
+.navbar-brand {
+	text-align: center;
 }
 
 /* svg {
