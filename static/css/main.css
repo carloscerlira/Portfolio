@@ -1,32 +1,32 @@
 h1 {
-  font-family: 'Karla';
+  font-family: 'Roboto';
   color:#161c2b;
   font-size: 24px;
   font-weight: bolder;
 }
 
 h2 {
-  font-family: 'Karla';
+  font-family: 'Roboto';
   color: #161c2b;
   font-size: 20px;
   font-weight: bold;
 }
 
 h3 {
-  font-family: 'Karla';
+  font-family: 'Roboto';
   color: #161c2b;
   font-size: 16px;
   font-weight: bold;
 }
 
 p {
-  font-family: 'Karla';
+  font-family: 'Roboto';
   color: #161c2b;
   font-size: 16px;
 }
 
 li {
-  font-family: 'Karla';
+  font-family: 'Roboto';
   color: #161c2b;
   font-size: 16px;
 }
@@ -72,5 +72,5 @@ a {
 }
 
 /* svg {
-  shape-rendering: optimizeSpeed
+  shape-rendering: oNotoimizeSpeed
 } */
